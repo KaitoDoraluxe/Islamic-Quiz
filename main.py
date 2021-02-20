@@ -8,24 +8,9 @@ while True:
 
     # Correct Answers
     if choice in ('Ali', 'Ali (ra)', 'ali', 'Ali ra', 'Ali RA'):
-        
 
-        if choice == 'Ali (ra)':
-            print("Correct!")
-        
-        elif choice == 'ali':
-            print("Correct!")
-        
-        elif choice == 'Ali ra':
-            print("Correct!")
-        
-        elif choice == 'Ali RA':
-            print("Correct!")
+        print("Correct!")     
 
-        elif choice == 'Ali':
-            print("Correct!")    
-
-                 
 
         break
     else:
@@ -41,11 +26,7 @@ while True:
     if question2 in ('None', 'none'):
         
 
-        if question2 == 'None':
-            print("Correct! Because Faitha is a Surah and it is the first Surah of the Quran")
-
-        elif question2 == 'none':
-            print("Correct! Because Faitha is a Surah and it is the first Surah of the Quran")
+        print("Correct! Because Faitha is a Surah and it is the first Surah of the Quran")
 
         break
     else:
@@ -61,18 +42,13 @@ while True:
     if question3 in ('570 AD', '570', '570 ad'):
         
 
-        if question3 == '570 AD':
-            print("Correct!")
+        print("Correct!")
 
-        elif question3 == '570':
-            print("Correct!")
-            
-        elif question3 == '570 ad':
-            print("Correct!")
         break
     else:
         print("Wrong Answer! Try again!")
 
-print("Now that you answered All 3 questin correctly, heres a chocolate chip cookies for reward")
+
+print("Now that you answered All 3 question correctly, heres a chocolate chip cookies for reward")
 print("https://i.redd.it/i5hupc107fh61.jpg")
 print("Created by Kaitou Doraluxe")
